@@ -34,6 +34,7 @@ let getMovie = () => {
                                 <span>Duration: ${data.Runtime}</span>
                             </div>
                             <div class="genre">
+                            <p>Genre:</p>
                                 <div>${data.Genre.split(",").join("</div><div>")}</div>
                             </div>
                         </div>
