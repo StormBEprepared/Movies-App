@@ -8,6 +8,21 @@ body{
     height: 100vh;
     background: rgb(237,252,255);
     background: radial-gradient(circle, rgba(237,252,255,1) 0%, rgba(68,100,101,1) 100%);}
+
+h2{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+}
+h3{
+    margin-top: 1.2em;
+}
+
+p{
+    color: #a0a0a0;
+}
+
 .container{
     font-size: 16px;
     width: 90vw;
@@ -20,7 +35,6 @@ body{
     left: 50%;
     border-radius: 1.6em;
     box-shadow: 1.2em 2em 3em rgba(0, 0, 0, 0.2);
-    border:50px #c0f0ff;
 }
 
 .search-container{
@@ -31,7 +45,6 @@ body{
 
 .search-container input, .search-container button{
     font-size: 0.9em;
-    outline: none;
     border-radius: 1.3em;
 }
 
@@ -40,16 +53,6 @@ body{
     border: 1px solid #a0a0a0;
     color: #fff;
     padding: 0.7em;
-}
-
-.search-container input:focus{
-    border-color: #fff;
-}
-
-.search-container button{
-    background-color: #ffffff;
-    border: none;
-    cursor: pointer;
 }
 
 #result{
@@ -69,26 +72,12 @@ body{
     margin:2%;
 }
 
-h2{
-    text-align: center;
-    font-size: 1.5em;
-    font-weight: 600;
-    letter-spacing: 0.06em;
-}
-
 .rating{
     display: flex;
     align-items: left;
     justify-content: center;
     gap: 0.6em;
     margin: 0.6em 0 0.9em 0;
-}
-
-
-.rating h4{
-    display: inline-block;
-    font-size: 1.1em;
-    font-weight: 500;
 }
 
 .details{
@@ -106,11 +95,4 @@ h2{
     justify-content: space-around;
 }
 
-h3{
-    margin-top: 1.2em;
-}
-
-p{
-    color: #a0a0a0;
-}
 
